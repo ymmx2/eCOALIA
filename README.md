@@ -79,7 +79,7 @@ The software allows to vary several parameters of different neural populations a
     List_ParamEvol.append(myParamEvol)
 ```
 
-![param evol](img\Fig01.png)
+![param evol](img\\Fig01.png)
 
 Figure 1. Dynamic parameter modification and visualization.
 
