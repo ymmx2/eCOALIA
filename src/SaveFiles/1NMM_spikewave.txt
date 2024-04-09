@@ -1,0 +1,97 @@
+Model_info::
+Model_Name = Model_NeoNMM.pop_Coalia
+Nb_NMM = 1
+A	7.0	
+Bb	32.0	
+Ba	19.0	
+G	30.0	
+D	5.0	
+R	5.0	
+a1	100.0	
+a2	100.0	
+bb1	50.0	
+bb2	50.0	
+ba1	20.0	
+ba2	20.0	
+g1	350.0	
+g2	350.0	
+d1	20.0	
+d2	20.0	
+r1	5.0	
+r2	5.0	
+CPP	0.0	
+CP1P	100.0	
+CI1P	50.0	
+CI2aP	20.0	
+CI2bP	35.0	
+CI4P	0.0	
+CPP1	135.0	
+CPI1	50.0	
+CI1I1	0.0	
+CI1bI1	0.0	
+CI2I1	13.5	
+CI4I1	0.0	
+CPI1b	0.0	
+CI1I1b	0.0	
+CPI2	55.0	
+CI3I2	20.0	
+CI4I2	0.0	
+CPI3	5.0	
+CI2I3	30.0	
+CI4I3	10.0	
+CI2I4	0.0	
+CI4I4	0.0	
+CI4bI4	0.0	
+CI4I4b	0.0	
+Pv0	6.0	
+I1v0	6.0	
+I2v0	6.0	
+I3v0	6.0	
+I4v0	6.0	
+Pe0	5.0	
+I1e0	5.0	
+I2e0	5.0	
+I3e0	5.0	
+I4e0	5.0	
+Pr0	0.56	
+I1r0	0.56	
+I2r0	0.56	
+I3r0	0.56	
+I4r0	0.56	
+Pm	100.0	
+I1m	0.0	
+I2m	0.0	
+I3m	0.0	
+I4m	0.0	
+Ps	2.0	
+I1s	0.0	
+I2s	0.0	
+I3s	0.0	
+I4s	0.0	
+Pcoef	1.0	
+I1coef	0.0	
+I2coef	0.0	
+I3coef	0.0	
+I4coef	0.0	
+k_P	1.0	
+k_Pp	0.352	
+k_I1	0.108	
+k_I2	0.256	
+k_I3	0.15	
+k_I4	0.256	
+Name	Sham	
+Color	#000000	
+CM_info::
+Nb_NMM = 1
+CM_P_P:
+0.000000E+00	
+CM_P_I1:
+0.000000E+00	
+CM_P_I2:
+0.000000E+00	
+CM_P_I3:
+0.000000E+00	
+CM_P_I4:
+0.000000E+00	
+DelayMat:
+0.000000E+00	
