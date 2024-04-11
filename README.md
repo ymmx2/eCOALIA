@@ -20,7 +20,8 @@ vtk >= 9.2.6
 
 ## Getting Started
 
-The package can be cloned from the GitLab link : https://github.com/ymmx2/NeoNMM.
+The package can be cloned from the GitLab link : https://gitlab.univ-rennes1.fr/myochum/neocorticalnmm or can be installed from the pip command : 
+```pip install neocorticalnmm``` 
 
 ## Functionality Guide
 
@@ -155,7 +156,7 @@ list containing the stimulation signal (stim),
 list containing the parameter evolution (evol) and model (model) as arguments. 
 
 ```python
-    SaveFile_Name = r'NeoNMM.SaveFiles/single_node_simulation.txt'
+    SaveFile_Name = r'SaveFiles/single_node_simulation.txt'
     Save_Simulation(fileName=SaveFile_Name,stim=List_Stim,evol=List_ParamEvol ,model=Model)
 ```
 
@@ -337,13 +338,13 @@ not include any parameter evolution or stimulation signal. Therefore, the functi
 ```python 
 #make import
 from PyQt6.QtWidgets import QApplication
-from NeoNMM.PackageSources.Model import Cortex_Model_NeoNMM
-from NeoNMM.PackageSources.Computation.Loading import LoadSimul, Save_Simulation
-from NeoNMM.PackageSources.Computation.Generate_Signal import Plot_Generate_ParamEvol, Plot_Generate_Stim_signal
-from NeoNMM.PackageSources.Computation.Filter import signalfilter_EEG
-from NeoNMM.PackageSources.Display.EEG_Viewer import EEG_Viewer
-from NeoNMM.PackageSources.Display.Spectrogram import Spectrogram_Viewer
-from NeoNMM.PackageSources.Computation.Classes import stim_sig, ParamEvolClass
+from PackageSources.Model import Cortex_Model_NeoNMM
+from PackageSources.Computation.Loading import LoadSimul, Save_Simulation
+from PackageSources.Computation.Generate_Signal import Plot_Generate_ParamEvol, Plot_Generate_Stim_signal
+from PackageSources.Computation.Filter import signalfilter_EEG
+from PackageSources.Display.EEG_Viewer import EEG_Viewer
+from PackageSources.Display.Spectrogram import Spectrogram_Viewer
+from PackageSources.Computation.Classes import stim_sig, ParamEvolClass
 import sys
 import numpy as np
 
@@ -365,7 +366,7 @@ if __name__ == '__main__':
     * Load the saved simulation file under « SaveFiles » directory
     ```python 
     #load a file
-    SaveFile_Name = r'NeoNMM.SaveFiles/1NMM_alpha.txt'
+    SaveFile_Name = r'SaveFiles/1NMM_alpha.txt'
     Model, List_Stim, List_ParamEvol = LoadSimul(FilePath=SaveFile_Name, Model=Model)
     ```
     * Define numerical integration parameters
@@ -460,7 +461,7 @@ contribute to the EEG signals, the lead field matrix projects the 66 neocortical
     * Load the saved simulation file under « SaveFiles » directory:
     ```python  
     #load a file
-    SaveFile_Name = r'NeoNMM.SaveFiles/67NMM_spikewave_2.txt'
+    SaveFile_Name = r'SaveFiles/67NMM_spikewave_2.txt'
     Model,List_Stim, List_ParamEvol = LoadSimul(FilePath=SaveFile_Name, Model=Model)
     ``` 
     * Define numerical integration paramters:
@@ -496,7 +497,7 @@ contribute to the EEG signals, the lead field matrix projects the 66 neocortical
     * Save the model,  parameter evolution, stimulation to a file for future use:
     ```python  
     # Save a simulation file
-    SaveFile_Name = r'NeoNMM.SaveFiles/67NMM_interictal_to_ictal.txt'
+    SaveFile_Name = r'SaveFiles/67NMM_interictal_to_ictal.txt'
     Save_Simulation(fileName=SaveFile_Name, stim=List_Stim, evol=List_ParamEvol, model=Model)
     ``` 
     * Run numerical integration by takin into account the cortical delay matrix using the function ```Compute_Time_with_delay()```
@@ -587,14 +588,3 @@ contribute to the EEG signals, the lead field matrix projects the 66 neocortical
 ![example1](img/Fig08.png)
 
 Figure 7. Displayed signals after running Practical example 2. Notice the difference in the spectrogram in the panel r-PREC.
-
-
-
-
-
-
-
-
-
-
-
