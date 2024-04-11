@@ -20,8 +20,7 @@ vtk >= 9.2.6
 
 ## Getting Started
 
-The package can be cloned from the GitLab link : https://gitlab.univ-rennes1.fr/myochum/neocorticalnmm or can be installed from the pip command : 
-```pip install neocorticalnmm``` 
+The package can be cloned from the GitLab link : https://github.com/ymmx2/NeoNMM.
 
 ## Functionality Guide
 
