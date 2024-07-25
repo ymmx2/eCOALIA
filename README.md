@@ -4,7 +4,7 @@
 
 ## Introduction
 
- NeoNMM is a software package for simulating mesoscale (neuronal population) and macroscale (connected neuronal populations at the whole brain level). NeoNMM targets computational Neuroscience students, engineers, and researchers, who want to simulate EEG signals with a neurophysiologically grounded neural mass (NMM) as introduced in (1). The software package requires basic coding skills in Python. 
+ NeoNMM is a software package for simulating mesoscale (neuronal population) and macroscale (connected neuronal populations at the whole brain level). NeoNMM targets computational Neuroscience students, engineers, and researchers, who want to simulate EEG signals with a neurophysiologically grounded neural mass (NMM) as introduced in ([Koksal-Ersoz et al. 2022](https://iopscience.iop.org/article/10.1088/1741-2552/ac8fb4); [Wendling et al. 2024](https://doi.org/10.1016/j.clinph.2024.03.006)). The software package requires basic coding skills in Python. 
 
 ## Installation and Setup
 
