@@ -1,10 +1,10 @@
-# NeoMNN documentation
+# eCOALIA documentation
 
 
 
 ## Introduction
 
- NeoNMM is a software package for simulating mesoscale (neuronal population) and macroscale (connected neuronal populations at the whole brain level). NeoNMM targets computational Neuroscience students, engineers, and researchers, who want to simulate EEG signals with a neurophysiologically grounded neural mass (NMM) as introduced in ([Koksal-Ersoz et al. 2022](https://iopscience.iop.org/article/10.1088/1741-2552/ac8fb4); [Wendling et al. 2024](https://doi.org/10.1016/j.clinph.2024.03.006)). The software package requires basic coding skills in Python. 
+ eCOALIA is a software package for simulating mesoscale (neuronal population) and macroscale (connected neuronal populations at the whole brain level). eCOALIA targets computational Neuroscience students, engineers, and researchers, who want to simulate EEG signals with a neurophysiologically grounded neural mass (NMM) as introduced in ([Koksal-Ersoz et al. 2022](https://iopscience.iop.org/article/10.1088/1741-2552/ac8fb4); [Wendling et al. 2024](https://doi.org/10.1016/j.clinph.2024.03.006)). The software package requires basic coding skills in Python. 
 
 ## Installation and Setup
 
@@ -20,7 +20,7 @@ vtk >= 9.2.6
 
 ## Getting Started
 
-The package can be cloned from the GitLab link : https://github.com/ymmx2/NeoNMM.
+The package can be cloned from the GitLab link : https://github.com/ymmx2/eCOALIA.
 
 ## Functionality Guide
 
@@ -179,7 +179,7 @@ The numerical integration follows the Euler-Maruyama method.
 
 ### Signal Filtering
 
-NeoNMM calls the scipy.signal module for filtering the simulated signals with the 
+eCOALIA calls the scipy.signal module for filtering the simulated signals with the 
 function ```signalfilter_EEG()```, which takes the signal to be filtered, numerical 
 integration step, filter order, lower and upper bounds. Example in Figure 7 uses
 a band pass filter. The other available filters are low pass (‘lowpass’),
@@ -192,7 +192,7 @@ high pass (‘highpass’) and band stop (‘bandstop’).
 
 ### EEG computation
 
-NeoNMM packs lead field 8 different lead field matrices that link the Desikan atlas of 
+eCOALIA packs lead field 8 different lead field matrices that link the Desikan atlas of 
 66 cortical regions to N_E={21,32,65,110,131,200,256,257} number of EEG electrode contacts. 
 The files corresponding to the lead field matrices and EEG electrode names are given in Table 2.
 Functions ```LeadField = LoadLeadfield(FileName = FileName_Leadfield)``` and ```EEG_Names,
@@ -218,10 +218,10 @@ Table 2. Correspondence between the lead field and EEG electrode names files.
 
 ## Visualisation
 
-NeoNMM uses the PyQt6 module for the visualization and then need to call ```app = QApplication(sys.argv) ```
+eCOALIA uses the PyQt6 module for the visualization and then need to call ```app = QApplication(sys.argv) ```
 before calling the visualization functions. Then, the user calls the ```sys.exit(app.exec()) ```
 after all visualization function definitions.
-NeoNMM incorporates different modules for different visualization purposes as explained in the subsequent subsections. 
+eCOALIA incorporates different modules for different visualization purposes as explained in the subsequent subsections. 
 
 ### Module EEG_Viewer
 
