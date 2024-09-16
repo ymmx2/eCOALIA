@@ -1,9 +1,17 @@
+Evol_info::
+Nb_evol = 2
+NMM	[0]	[0]	
+Name	CPI2	Ba	
+time	[0.0, 10.0, 11.0, 15.0, 30.0]	[0.0, 10.0, 11.0, 25.0, 30.0]	
+val	[55.0, 35.0, 10.0, 10.0, 55.0]	[19.0, 19.0, 2.0, 5.0, 19.0]	
+typeinterp	linear	linear	
+Add_Edit	False	False	
 Model_info::
 Model_Name = Model_NeoNMM.pop_Coalia
 Nb_NMM = 1
-A	4.5	
-Bb	0.0	
-Ba	24.0	
+A	7.0	
+Bb	32.0	
+Ba	19.0	
 G	30.0	
 D	5.0	
 R	5.0	
@@ -11,8 +19,8 @@ a1	100.0
 a2	100.0	
 bb1	50.0	
 bb2	50.0	
-ba1	40.0	
-ba2	40.0	
+ba1	20.0	
+ba2	20.0	
 g1	350.0	
 g2	350.0	
 d1	20.0	
@@ -22,18 +30,18 @@ r2	5.0
 CPP	0.0	
 CP1P	100.0	
 CI1P	50.0	
-CI2aP	25.0	
-CI2bP	25.0	
+CI2aP	20.0	
+CI2bP	35.0	
 CI4P	0.0	
 CPP1	135.0	
 CPI1	50.0	
-CI1I1	200.0	
+CI1I1	0.0	
 CI1bI1	0.0	
 CI2I1	13.5	
 CI4I1	0.0	
 CPI1b	0.0	
 CI1I1b	0.0	
-CPI2	25.0	
+CPI2	55.0	
 CI3I2	20.0	
 CI4I2	0.0	
 CPI3	5.0	

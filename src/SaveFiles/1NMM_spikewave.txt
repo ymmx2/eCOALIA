@@ -73,12 +73,12 @@ I1coef	0.0
 I2coef	0.0	
 I3coef	0.0	
 I4coef	0.0	
-k_P	1.0	
-k_Pp	0.352	
-k_I1	0.108	
-k_I2	0.256	
-k_I3	0.15	
-k_I4	0.256	
+k_P	0.0	
+k_Pp	0.0	
+k_I1	0.0	
+k_I2	0.0	
+k_I3	0.0	
+k_I4	0.0	
 Name	Sham	
 Color	#000000	
 CM_info::
